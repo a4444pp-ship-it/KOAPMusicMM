@@ -1,0 +1,13 @@
+{
+  "name": "KOAP Stream Bot",
+  "description": "Standalone Telegram voice chat music & video streaming bot",
+  "stack": "container",
+  "env": {
+    "API_ID": {"description": "Telegram API ID", "required": true},
+    "API_HASH": {"description": "Telegram API Hash", "required": true},
+    "BOT_TOKEN": {"description": "Telegram Bot Token", "required": true},
+    "SESSION_STRING": {"description": "Pyrogram Userbot Session String", "required": true},
+    "MONGO_URL": {"description": "MongoDB connection string", "required": false},
+    "OWNER_ID": {"description": "Bot owner Telegram user ID", "required": true}
+  }
+}
